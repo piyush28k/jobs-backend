@@ -19,7 +19,6 @@ try {
     mongoose.connect(URI,{
         // useNewUrlParser:true,
         // useUnifiedTopology:true,
-        tls:true
     })
     console.log("connect to db")
 } catch (error) {
